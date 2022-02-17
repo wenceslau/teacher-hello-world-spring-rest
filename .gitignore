@@ -1,3 +1,28 @@
+# compiled output
+**/target
+**/log
+/dist
+/tmp
+/out-tsc
+
+***/target
+***/log
+*/dist
+*/tmp
+*/out-tsc
+
+# IDEs and editors
+/.idea
+*/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+*.versionsBackup
+*.factorypath
+
 # Compiled class file
 *.class
 
