@@ -21,6 +21,8 @@ public class HelloRest {
         Response response = new Response();
         response.setMensagem(msg);
 
+        // Here we are returning an object of type 'Response' that will be automatically converted to JSON
+        // This kind of response is used in API Rest services, and used by SPA applications
         return response;
     }
 }
